@@ -5,12 +5,13 @@ const DirectoryNamedWebpackPlugin = require('directory-named-webpack-plugin');
 
 module.exports = {
   entry: {
-    app: './src/index.js',
+    entry: './src/entry.js',
   },
   plugins: [
     new CleanWebpackPlugin(['dist/static']),
     new HtmlWebpackPlugin({
-      title: 'Der Spielplatz',
+      hash: true,
+      template: './src/index.html',
     }),
   ],
   module: {

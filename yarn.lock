@@ -7221,6 +7221,12 @@ mkdirp@0.5.x, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0, mkdirp@~0.5.1:
   dependencies:
     minimist "0.0.8"
 
+mollusc@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/mollusc/-/mollusc-2.0.0.tgz#3ac5cb5a84f1cc3dbbed8645122ff4d377d19369"
+  dependencies:
+    unicode "^10.0.0"
+
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/move-concurrently/-/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -7621,6 +7627,13 @@ object.values@^1.0.4:
     es-abstract "^1.6.1"
     function-bind "^1.1.0"
     has "^1.0.1"
+
+objection-slug@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/objection-slug/-/objection-slug-1.0.0.tgz#f3ad84a99652c590ed82f801ba741a5610d15f52"
+  dependencies:
+    mollusc "^2.0.0"
+    uuid "^3.3.2"
 
 objection@^1.3.0:
   version "1.4.0"
@@ -10383,6 +10396,10 @@ unicode-match-property-value-ecmascript@^1.0.2:
 unicode-property-aliases-ecmascript@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/unicode-property-aliases-ecmascript/-/unicode-property-aliases-ecmascript-1.0.4.tgz#5a533f31b4317ea76f17d807fa0d116546111dd0"
+
+unicode@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/unicode/-/unicode-10.0.0.tgz#e5d51c1db93b6c71a0b879e0b0c4af7e6fdf688e"
 
 unified@^4.1.1:
   version "4.2.1"

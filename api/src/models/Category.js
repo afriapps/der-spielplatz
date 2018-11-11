@@ -1,4 +1,10 @@
 import { Model } from 'objection';
+import objectionSlug from 'objection-slug';
+
+const slug = objectionSlug({
+  sourceField: 'name',
+  slugField: 'slug',
+});
 
 export const schema = {
   type: 'object',
@@ -11,7 +17,7 @@ export const schema = {
   },
 };
 
-export default class Category extends Model {
+export default class Category extends slug(Model) {
   static tableName = 'categories';
 
   $beforeInsert() {
